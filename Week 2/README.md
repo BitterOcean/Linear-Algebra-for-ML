@@ -14,9 +14,11 @@
 
 1. As we have seen in the lecture videos, the dot product of vectors has a lot of applications. Here, you will complete some exercises involving the dot product.
 
-We have seen that the size of a vector with two components is calculated using Pythagoras' theorem, for example the following diagram shows how we calculate the size of the orange vector $$r=\begin{bmatrix}
-    r_{1} \\
-    r_{2}
+    We have seen that the size of a vector with two components is calculated using Pythagoras' theorem, for example the following diagram shows how we calculate the size of the orange vector 
+    
+    $$r=\begin{bmatrix}
+    r_1 \\
+    r_2 
     \end{bmatrix}$$
 
    - [x] AI controls the power grids for energy distribution, so all the power needed for industry and in daily life comes from AI.
