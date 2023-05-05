@@ -188,560 +188,345 @@
 
     ---
 
-    1. In this quiz, you will practice changing from the standard basis to a basis consisting of orthogonal vectors.
-    
-        Given vectors $v, b_1, b_2$ all written in the standard basis, what is $v$ in the basis defined by $b_1$ and $b_2$? You are given that $b_1$ and $b_2$ are orthogonal to each other.
+    1. You go to the shops on Monday and buy 1 apple, 1 banana, and 1 carrot; the whole transaction totals €15. On Tuesday you buy 3 apples, 2 bananas, 1 carrot, all for €28. Then on Wednesday 2 apples, 1 banana, 2 carrots, for €23.
 
-        $$v=\begin{bmatrix}
-            5 \\
-            -1 
-        \end{bmatrix},\quad b_1=\begin{bmatrix}
-            1 \\
-            1
-        \end{bmatrix},\quad b_2=\begin{bmatrix}
-            1 \\
-            -1
+        Construct a matrix and vector for this linear algebra system. That is, for
+
+        $$A\begin{bmatrix}
+            a \\
+            b \\
+            c 
+        \end{bmatrix}=\begin{bmatrix}
+            s_{Mon} \\
+            s_{Tue} \\
+            s_{Wed}
         \end{bmatrix}$$
 
-       - [ ] 
-       $v_b = \begin{bmatrix}
-        -3 \\
-        2
-       \end{bmatrix}$
-       - [ ] 
-       $v_b = \begin{bmatrix}
-        3 \\
-        2
-       \end{bmatrix}$
-       - [ ] 
-       $v_b = \begin{bmatrix}
-        3 \\
-        -2
-       \end{bmatrix}$
-       - [x] 
-       $v_b = \begin{bmatrix}
-        2 \\
-        3
-       \end{bmatrix}$
+        Where $a, b, c$ are the prices of apples, bananas, and carrots. And each $s$ is the total for that day.
 
-        > ✔️ <spane style="color: green;">**Correct**</br>The vector $v$ is projected onto the two vectors $b_1$ and $b_2$.</span>
+        Fill in the components of $A$ and $s$.
 
-    ---
+       ```python
+       # Replace A and s with the correct values below:
+        A = [[1, 1, 1],
+             [3, 2, 1],
+             [2, 1, 2]]
 
-    2. Given vectors 
-
-        $$v=\begin{bmatrix}
-            10 \\
-            -5
-        \end{bmatrix},\quad b_1=\begin{bmatrix}
-            3 \\
-            4
-        \end{bmatrix},\quad b_2=\begin{bmatrix}
-            4 \\
-            -3
-        \end{bmatrix}$$
-
-        all written in the standard basis, what is $v$ in the basis defined by $b_1$ and $b_2$? You are given that $b_1$ and $b_2$ are orthogonal to each other.
-
-        - [ ] 
-        $v_b = \begin{bmatrix}
-        11/5 \\
-        2/5
-       \end{bmatrix}$
-       - [ ] 
-       $v_b = \begin{bmatrix}
-        -2/5 \\
-        11/5
-       \end{bmatrix}$
-       - [ ] 
-       $v_b = \begin{bmatrix}
-        2/5 \\
-        11/5
-       \end{bmatrix}$
-       - [x] 
-       $v_b = \begin{bmatrix}
-        2 \\
-        11
-       \end{bmatrix}$
-
-        > ✔️ <spane style="color: green;">**Correct**</br>The vector $v$ is projected onto the two vectors $b_1$ and $b_2$.</span>
-
-    ---
-
-    3. Given vectors 
-
-        $$v=\begin{bmatrix}
-            2 \\
-            2
-        \end{bmatrix},\quad b_1=\begin{bmatrix}
-            -3 \\
-            1
-        \end{bmatrix},\quad b_2=\begin{bmatrix}
-            1 \\
-            3
-        \end{bmatrix}$$
-
-        all written in the standard basis, what is $v$ in the basis defined by $b_1$ and $b_2$? You are given that $b_1$ and $b_2$ are orthogonal to each other.
-
-        - [ ] 
-        $v_b = \begin{bmatrix}
-        -2/5 \\
-        5/4
-       \end{bmatrix}$
-       - [ ] 
-       $v_b = \begin{bmatrix}
-        -2/5 \\
-        4/5
-       \end{bmatrix}$
-       - [ ] 
-       $v_b = \begin{bmatrix}
-        5/4 \\
-        -5/2
-       \end{bmatrix}$
-       - [x] 
-       $v_b = \begin{bmatrix}
-        2/5 \\
-        -4/5
-       \end{bmatrix}$
-
-        > ✔️ <spane style="color: green;">**Correct**</br>The vector $v$ is projected onto the two vectors $b_1$ and $b_2$.</span>
-
-    ---
-
-    4. Given vectors 
-
-        $$v=\begin{bmatrix}
-            1 \\
-            1 \\
-            1
-        \end{bmatrix},\quad b_1=\begin{bmatrix}
-            2 \\
-            1 \\
-            0
-        \end{bmatrix},\quad b_2=\begin{bmatrix}
-            1 \\
-            -2 \\
-            -1
-        \end{bmatrix},\quad b_3=\begin{bmatrix}
-            -1 \\
-            2 \\
-            -5
-        \end{bmatrix}$$
-
-        all written in the standard basis, what is $v$ in the basis defined by $b_1, b_2$ and $b_3$? You are given that $b_1, b_2$ and $b_3$ are orthogonal to each other.
-
-        - [ ] 
-        $v_b = \begin{bmatrix}
-        3 \\
-        -1 \\
-        -2
-       \end{bmatrix}$
-       - [ ] 
-       $v_b = \begin{bmatrix}
-        -3/5 \\
-        -1/3 \\
-        -2/15
-       \end{bmatrix}$
-       - [ ] 
-       $v_b = \begin{bmatrix}
-        -3/5 \\
-        -1/3 \\
-        2/15
-       \end{bmatrix}$
-       - [x] 
-       $v_b = \begin{bmatrix}
-        3/5 \\
-        -1/3 \\
-        -2/15
-       \end{bmatrix}$
-
-        > ✔️ <spane style="color: green;">**Correct**</br>The vector $v$ is projected onto the two vectors $b_1, b_2$ and $b_3$.</span>
-
-    ---
-
-    5. Given vectors 
-
-        $$v=\begin{bmatrix}
-            1 \\
-            1 \\
-            2 \\
-            3
-        \end{bmatrix},\quad b_1=\begin{bmatrix}
-            1 \\
-            0 \\
-            0 \\
-            0
-        \end{bmatrix},\quad b_2=\begin{bmatrix}
-            0 \\
-            2 \\
-            -1 \\
-            0
-        \end{bmatrix},\quad b_3=\begin{bmatrix}
-            0 \\
-            1 \\
-            2 \\
-            0
-        \end{bmatrix},\quad b_4=\begin{bmatrix}
-            0 \\
-            0 \\
-            0 \\
-            3
-        \end{bmatrix}$$
-
-        all written in the standard basis, what is $v$ in the basis defined by $b_1, b_2, b_3$ and $b_4$? You are given that $b_1, b_2, b_3$ and $b_4$ are orthogonal to each other.
-
-        - [ ] 
-        $v_b = \begin{bmatrix}
-        0 \\
-        1 \\
-        1 \\
-        1
-       \end{bmatrix}$
-       - [ ] 
-       $v_b = \begin{bmatrix}
-        1 \\
-        0 \\
-        1 \\
-        1
-       \end{bmatrix}$
-       - [ ] 
-       $v_b = \begin{bmatrix}
-        1 \\
-        1 \\
-        0 \\
-        1
-       \end{bmatrix}$
-       - [x] 
-       $v_b = \begin{bmatrix}
-        1 \\
-        1 \\
-        1 \\
-        0
-       \end{bmatrix}$
-
-        > ✔️ <spane style="color: green;">**Correct**</br>The vector $v$ is projected onto the two vectors $b_1, b_2, b_3$ and $b_4$.</span>
-
-</details>
-
----
-
-- <details close><summary><h2>Practice Quiz 3 : Linear dependency of a set of vectors</h2></summary>
-
-    ### <span style="color: green;">**Congratulations! You passed!**</span>
-
-    #### **Grade received** <span style="color: green;">83.33%</span>
-
-    #### **Latest Submission Grade** 83.33%
-
-    #### **To pass** 80% or higher
-
-    ---
-
-    1. In the lecture videos you saw that vectors are linearly dependent if it is possible to write one vector as a linear combination of the others. For example, the vectors $a, b$ and $c$ are linearly dependent if $a=q_1b+q_2c$ where $q_1$ and $q_2$ are scalars.
-
-        Are the following vectors linearly dependent?
-
-        $$a=\begin{bmatrix}
-            1 \\
-            1
-        \end{bmatrix},\quad and~~b=\begin{bmatrix}
-            2 \\
-            2
-        \end{bmatrix}$$
-
-       - [x] Yes
-       - [ ] No
-
-        > ✔️ <spane style="color: green;">**Correct**</br>When there are two vectors we only need to check if one can be written as a scalar multiple of the other. We can see that the vectors are linearly dependent because $a=\frac{1}{2}b$</span>
-
-    ---
-
-    2. We say that two vectors are linearly independent if they are not linearly dependent, that is, we cannot write one of the vectors as a linear combination of the others. Be careful not to mix the two definitions up!
-
-        Are the following vectors linearly independent?
-
-        $$a=\begin{bmatrix}
-            1 \\
-            1
-        \end{bmatrix},\quad and~~b=\begin{bmatrix}
-            2 \\
-            1
-        \end{bmatrix}$$
-
-       - [x] Yes
-       - [ ] No
-
-        > ✔️ <spane style="color: green;">**Correct**</br>These vectors are linearly independent as one is not a scalar multiple of the other.</span>
-
-    ---
-
-    3. We also saw in the lectures that three vectors that lie in the same two dimensional plane must be linearly dependent. This tells us that $a, b$ and $c$ are linearly dependent in the following diagram:
-
-        ![q33.png](img/q33.png)
-
-        What are the values of $q_1$ and $q_2$ that allow us to write $a = q_1b+q_2c$? Put your answer in the following codeblock:
-
-        ```python
-        # Assign the correct values for q1 and q2 to write a as a linear combination of b and c
-        q1 = -1
-        q2 = -3
+        s = [15, 28, 23]
         ```
 
-        > ✔️ <spane style="color: green;">**Correct**</br>Good job!</span>
+        > ✔️ <spane style="color: green;">**Correct**</br>Correct! Well done.</span>
 
     ---
 
-    4. In fact, an $n$-dimensional space can have as many as $n$ linearly independent vectors. The following three vectors are three dimensional, which means that we must check if they are linearly dependent or independent.
+    2. Given another system, $Br = t$,
 
-        Are the following vectors linearly independent?
+        $$
+        \begin{array}{c}
+            ①: \\
+            ②: \\
+            ③:
+        \end{array}\begin{bmatrix}
+            4 & 6 & 2 \\
+            3 & 4 & 1 \\
+            2 & 8 & 13
+        \end{bmatrix}\begin{bmatrix}
+            a \\
+            b \\
+            c
+        \end{bmatrix} = \begin{bmatrix}
+            9 \\
+            7 \\
+            2
+        \end{bmatrix}
+        $$
 
-        $$a=\begin{bmatrix}
-            1 \\
-            0 \\
-            0
-        \end{bmatrix},\quad b=\begin{bmatrix}
-            1 \\
-            1 \\
-            0
-        \end{bmatrix},\quad and~~c=\begin{bmatrix}
-            1 \\
-            0 \\
-            1
-        \end{bmatrix}$$
+        We wish to convert this to echelon form, by using elimination. Starting with the first row, ①, if we divide the whole row by 4, then the top-left element of the matrix becomes 1,
 
-       - [x] Yes
-       - [ ] No
+        $$
+        \begin{array}{c}
+            ①^{'}: \\
+            ②^{'}: \\
+            ③^{'}:
+        \end{array}\begin{bmatrix}
+            1 & 3/2 & 1/2 \\
+            3 & 4 & 1 \\
+            2 & 8 & 13
+        \end{bmatrix}\begin{bmatrix}
+            a \\
+            b \\
+            c
+        \end{bmatrix} = \begin{bmatrix}
+            9/4 \\
+            7 \\
+            2
+        \end{bmatrix}
+        $$
 
-        > ✔️ <spane style="color: green;">**Correct**</br>These vectors are linearly independent as one can not be written as a linear sum of the other two.</span>
+        Next, we need to fix the second row. This results in the following:
+
+        $$
+        \begin{array}{c}
+            ①^{"}: \\
+            ②^{"}: \\
+            ③^{"}:
+        \end{array}\begin{bmatrix}
+            1 & 3/2 & 1/2 \\
+            0 & 1 & 1 \\
+            2 & 8 & 13
+        \end{bmatrix}\begin{bmatrix}
+            a \\
+            b \\
+            c
+        \end{bmatrix} = \begin{bmatrix}
+            9/4 \\
+            -1/2 \\
+            2
+        \end{bmatrix}
+        $$
+
+        What steps did we take?
+
+        - [ ] The new second row, $②^{"}$ is the old second row minus two times the old first row, i.e., $②^{"} = [②^{'} - 2①^{'}]$
+        - [x] The new second row, $②^{"}$ is the old second row minus three times the old first row, then all multiplied by -2, i.e.,  $②^{"} = [②^{'} - 3①^{'}]\times (-2)$
+        - [ ] The new second row, $②^{"}$ is the old second row divided by four minus the old first row, i.e., $②^{"} = ②^{'}/4 - ①^{'}$
+        - [ ] The new second row, $②^{"}$ is the old second row minus three, i.e., $②^{"} = ②^{'} - 3$ 
+
+        > ✔️ <spane style="color: green;">**Correct**</br>We've made the new second row a linear combination of previous rows.</span>
 
     ---
 
-    5. Are the following vectors linearly independent?
+    3. From the previous question, our system is almost in echelon form. 
 
-        $$a=\begin{bmatrix}
-            1 \\
-            0 \\
-            1
-        \end{bmatrix},\quad b=\begin{bmatrix}
-            2 \\
-            -1 \\
-            1
-        \end{bmatrix},\quad and~~c=\begin{bmatrix}
-            -3 \\
-            1 \\
-            -2
-        \end{bmatrix}$$
+        $$
+        \begin{array}{c}
+            ①^{"}: \\
+            ②^{"}: \\
+            ③^{"}:
+        \end{array}\begin{bmatrix}
+            1 & 3/2 & 1/2 \\
+            0 & 1 & 1 \\
+            2 & 8 & 13
+        \end{bmatrix}\begin{bmatrix}
+            a \\
+            b \\
+            c
+        \end{bmatrix} = \begin{bmatrix}
+            9/4 \\
+            -1/2 \\
+            2
+        \end{bmatrix}
+        $$
 
-       - [ ] Yes
-       - [x] No
+        Fix row 3 to be a linear combination of the other two. What is the echelon form of the system?
 
-        > ✔️ <spane style="color: green;">**Correct**</br>We can that one of the vectors can be written as a linear sum of the other two, $a=-b-c$</span>
+        - [ ] 
+        $\begin{bmatrix}
+            1 & 0 & 0 \\
+            0 & 1 & 0 \\
+            0 & 0 & 1
+        \end{bmatrix}\begin{bmatrix}
+            a \\
+            b \\
+            c
+        \end{bmatrix} = \begin{bmatrix}
+            9/4 \\
+            -1/2 \\
+            -1/4
+        \end{bmatrix}$
+       - [ ] 
+       $\begin{bmatrix}
+            1 & 3/2 & 1/2 \\
+            0 & 1 & 1 \\
+            0 & 0 & 1
+        \end{bmatrix}\begin{bmatrix}
+            a \\
+            b \\
+            c
+        \end{bmatrix} = \begin{bmatrix}
+            9/4 \\
+            -1/2 \\
+            1/2
+        \end{bmatrix}$
+       - [x] 
+       $\begin{bmatrix}
+            1 & 3/2 & 1/2 \\
+            0 & 1 & 1 \\
+            0 & 0 & 1
+        \end{bmatrix}\begin{bmatrix}
+            a \\
+            b \\
+            c
+        \end{bmatrix} = \begin{bmatrix}
+            9/4 \\
+            -1/2 \\
+            0
+        \end{bmatrix}$
+       - [ ] 
+       $\begin{bmatrix}
+            1 & 3/2 & 1/2 \\
+            0 & 1 & 1 \\
+            0 & 5 & 1
+        \end{bmatrix}\begin{bmatrix}
+            a \\
+            b \\
+            c
+        \end{bmatrix} = \begin{bmatrix}
+            9/4 \\
+            -1/2 \\
+            -5/2
+        \end{bmatrix}$
+
+        > ✔️ <spane style="color: green;">**Correct**</br>This system is now in echelon form.</span>
 
     ---
 
-    6. The following set of vectors cannot be used as a basis for a three dimensional space. Why?
+    4. Taking your answer from the previous part, use back substitution to solve the system.
 
-        $$a=\begin{bmatrix}
-            1 \\
-            2 \\
-            0
-        \end{bmatrix},\quad b=\begin{bmatrix}
-            -2 \\
-            1 \\
-            3
-        \end{bmatrix},\quad and~~c=\begin{bmatrix}
-            4 \\
-            3 \\
-            -3
+        What is the value of
+        $\begin{bmatrix}
+            a \\
+            b \\
+            c
+        \end{bmatrix}$
+        ?
+
+        - [x] 
+        $r = \begin{bmatrix}
+        3 \\
+        -1/2 \\
+        0
+       \end{bmatrix}$
+       - [ ] 
+       $r = \begin{bmatrix}
+        9/4 \\
+        -1/2 \\
+        0
+       \end{bmatrix}$
+       - [ ] 
+       $r = \begin{bmatrix}
+        3/2 \\
+        1/2 \\
+        1
+       \end{bmatrix}$
+       - [ ] 
+       $r = \begin{bmatrix}
+        9 \\
+        7 \\
+        2
+       \end{bmatrix}$
+
+        > ✔️ <spane style="color: green;">**Correct**</br>Well done!</span>
+
+    ---
+
+    5. Let's return to the apples and bananas from Question 1.
+
+        Take your answer to Question 1 and convert the system to echelon form. I.e., 
+
+        $$\begin{bmatrix}
+            1 & A^{'}_{12} & A^{'}_{13} \\
+            0 & 1 & A^{'}_{23} \\
+            0 & 0 & 1
+        \end{bmatrix}\begin{bmatrix}
+            a \\
+            b \\
+            c 
+        \end{bmatrix} = \begin{bmatrix}
+            s^{'}_{1} \\
+            s^{'}_{2} \\
+            s^{'}_{3}
         \end{bmatrix}$$
 
-        - [ ] The vectors are linearly independent.
-        - [x] The vectors are not linearly independent.
-            > ✔️ <spane style="color: green;">**Correct**</br>We can see that $c = 2a - b$, so the vectors are linearly dependent. The definition of a basis requires that the vectors are linearly independent.</span>
-        - [ ] The vectors do not span three dimensional space.
-        - [ ] There are too many vectors for a three dimensional basis.
+        Find values for $A^{'}$ and $s^{'}$.
+
+        ```python
+        # Replace A and s with the correct values below:
+        A = [[1, 1, 1],
+             [0, 1, 2],
+             [0, 0, 1]]
         
-        > ✖️ <span style="color: red;">**Incorrect**</br>You didn't select all the correct answers.</span>
+        s = [15, 17, 5]
+        ```
+
+        > ✔️ <spane style="color: green;">**Correct**</br>Well done!</span>
+
+    ---
+
+    6. Following on from the previous question; now let's solve the system using back substitution.
+
+        What is the price of apples, bananas, and carrots?
+
+        ```python
+        # Replace a, b, and c with the correct values below:
+        s = [3, 7, 5]
+        ```
+
+        > ✔️ <spane style="color: green;">**Correct**</br>Well done!</span>
+
+    ---
+
+    7. If every week, you go to the shops and buy the same amount of apples, bananas, and oranges on Monday, Tuesday, and Wednesday; and every week you get a new list of daily totals - then you should solve the system in general.
+
+        That is, find the inverse of the matrix you used in Question 1.
+
+        ```python
+        # Replace the matrix elements with the correct values below:
+        Ainv = [[-1.5, 0.5, 0.5],
+                [2, 0, -1],
+                [0.5, -0.5, 0.5]]
+        ```
+
+        > ✔️ <spane style="color: green;">**Correct**</br>Well done!</span>
+
+    ---
+
+    8. In practice, for larger systems, one never solves a linear system by hand as there are software packages that can do this for you - such as *numpy* in Python.
+
+        Use this code block to see *numpy* invert a matrix.
+
+        You can try to invert any matrix you like. Try it out on your answers to the previous question.
+
+        ```python
+        import numpy as np
+
+        A = [[1, 1, 1],
+            [3, 2, 1],
+            [2, 1, 2]]
+        Ainv = np.linalg.inv(A)
+        ```
+
+        In general, one shouldn't calculate the inverse of a matrix unless absolutely necessary. It is more computationally efficient to solve the linear algebra system if that is all you need.
+
+        Use this code block to solve the following linear system with *numpy*. $Ar = s$
+
+        $$
+        \begin{bmatrix}
+            4 & 6 & 2 \\
+            3 & 4 & 1 \\
+            2 & 8 & 13
+        \end{bmatrix}\begin{bmatrix}
+            a \\
+            b \\
+            c
+        \end{bmatrix} = \begin{bmatrix}
+            9 \\
+            7 \\
+            2
+        \end{bmatrix}
+        $$
+
+        ```python
+        import numpy as np
+        A = [[4, 6, 2],
+            [3, 4, 1],
+            [2, 8, 13]]
+
+        s = [9, 7, 2]
+
+        r = np.linalg.solve(A, s)
+        ```
+
+        > ✔️ <spane style="color: green;">**Correct**</br>In cases when you don't need the inverse matrix itself, linear algebra routines are quicker to solve the system for each case.</span>
 
 </details>
-
----
-
-## Graded Quiz : Vector operations assessment
-
-### <span style="color: green;">**Congratulations! You passed!**</span>
-
-#### **Grade received** <span style="color: green;">100%</span>
-
-#### **Latest Submission Grade** 100%
-
-#### **To pass** 80% or higher
-
----
-
-1. In this assessment, you will be tested on all of the different topics you have in covered this module. Good luck!
-
-    A ship travels with velocity given by 
-    $\begin{bmatrix}
-        1 \\
-        2
-    \end{bmatrix}$
-    , with current flowing in the direction given by 
-    $\begin{bmatrix}
-        1 \\
-        1
-    \end{bmatrix}$
-    with respect to some co-ordinate axes.
-
-    What is the velocity of the ship in the direction of the current?
-
-    - [ ] 
-    $\begin{bmatrix}
-        2/3 \\
-        2/3
-    \end{bmatrix}$
-    - [x] 
-    $\begin{bmatrix}
-        3/2 \\
-        3/2
-    \end{bmatrix}$
-    - [ ] 
-    $\begin{bmatrix}
-        2/3 \\
-        3/2
-    \end{bmatrix}$
-    - [ ] 
-    $\begin{bmatrix}
-        3/2 \\
-        2/3
-    \end{bmatrix}$
-
-    > ✔️ <spane style="color: green;">**Correct**</br>This is the vector projection of the velocity of the ship onto the velocity of the current.</span>
-
----
-
-2. A ball travels with velocity given by 
-$\begin{bmatrix}
-    2 \\
-    1
-\end{bmatrix}$
-with wind blowing in the direction given by 
-$\begin{bmatrix}
-    3 \\
-    -4
-\end{bmatrix}$
-with respect to some co-ordinate axes.
-
-    What is the size of the velocity of the ball in the direction of the wind?
-
-    - [ ] $\frac{5}{2}$
-    - [x] $\frac{2}{5}$
-    - [ ] $-\frac{2}{5}$
-    - [ ] $-\frac{5}{2}$
-
-    > ✔️ <spane style="color: green;">**Correct**</br>This is the scalar projection of the velocity of the ball onto the velocity of the wind.</span>
-
----
-
-3. Given vectors 
-$v=\begin{bmatrix}
-    -4 \\
-    -3 \\
-    8
-\end{bmatrix}$,
-$b_1=\begin{bmatrix}
-    1 \\
-    2 \\
-    3
-\end{bmatrix}$,
-$b_2=\begin{bmatrix}
-    -2 \\
-    1 \\
-    0
-\end{bmatrix}$, and
-$b_3=\begin{bmatrix}
-    -3 \\
-    -6 \\
-    5
-\end{bmatrix}$ all written in the standard basis, what is $v$ in the basis defined by $b_1, b_2$ and $b_3$? You are given that $b_1, b_2$ and $b_3$ are all pairwise orthogonal to each other.
-
-    - [x] $\begin{bmatrix}
-        1 \\
-        1 \\
-        1
-    \end{bmatrix}$
-    - [ ] $\begin{bmatrix}
-        0 \\
-        1 \\
-        1
-    \end{bmatrix}$
-    - [ ] $\begin{bmatrix}
-        1 \\
-        0 \\
-        1
-    \end{bmatrix}$
-    - [ ] $\begin{bmatrix}
-        1 \\
-        1 \\
-        0
-    \end{bmatrix}$
-
-    > ✔️ <spane style="color: green;">**Correct**</br>This is a change of basis in 3 dimensions.</span>
-
----
-
-4. Are the following vectors linearly independent?
-
-    $$a=\begin{bmatrix}
-        1 \\
-        2 \\
-        -1
-    \end{bmatrix},\quad b=\begin{bmatrix}
-        3 \\
-        -4 \\
-        5
-    \end{bmatrix},\quad and~~c=\begin{bmatrix}
-        1 \\
-        -8 \\
-        7
-    \end{bmatrix}$$
-
-    - [ ] Yes
-    - [x] No
-
-    > ✔️ <spane style="color: green;">**Correct**</br>One can be written as a linear combination of the other two.</span>
-
----
-
-5. At 12:00 pm, a spaceship is at position $\begin{bmatrix}
-    3 \\
-    2 \\
-    4
-\end{bmatrix} km$ away from the origin with respect to some 3 dimensional co ordinate system. The ship is travelling with velocity $\begin{bmatrix}
-    -1 \\
-    2 \\
-    -3
-\end{bmatrix} \frac{km}{s}$ What is the location of the spaceship after 2 hours have passed?
-
-    - [ ] $\begin{bmatrix}
-        2 \\
-        4 \\
-        1
-    \end{bmatrix}$
-    - [x] $\begin{bmatrix}
-        1 \\
-        6 \\
-        -2
-    \end{bmatrix}$
-    - [ ] $\begin{bmatrix}
-        -2 \\
-        4 \\
-        -1
-    \end{bmatrix}$
-    - [ ] $\begin{bmatrix}
-        -1 \\
-        -6 \\
-        2
-    \end{bmatrix}$
-
-    > ✔️ <spane style="color: green;">**Correct**</br>This takes the idea of vectors in the context of a moving body.</span>
