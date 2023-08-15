@@ -179,7 +179,7 @@ At the end of this course you will have an intuitive understanding of vectors an
 
 ## Certificate
   
-![Screenshot from 2023-08-15 18-28-29](https://github.com/BitterOcean/Linear-Algebra-for-ML/assets/60509979/f44d913d-e390-4a51-bde7-358f1fbae02f)
+![Screenshot from 2023-08-15 18-52-05](https://github.com/BitterOcean/Linear-Algebra-for-ML/assets/60509979/a9e87727-c569-4b2d-a3ab-a81ec532c4f8)
   
 - ![IssuingOrganization](https://img.shields.io/badge/Issuing%20Organization-Coursera-informational)
 
