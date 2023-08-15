@@ -179,14 +179,14 @@ At the end of this course you will have an intuitive understanding of vectors an
 
 ## Certificate
   
-  <!-- ![Screenshot from 2023-04-24 19-10-57](https://user-images.githubusercontent.com/60509979/234047693-3675a684-e024-43e8-88eb-7326ec68846f.png) -->
+![Screenshot from 2023-08-15 18-28-29](https://github.com/BitterOcean/Linear-Algebra-for-ML/assets/60509979/f44d913d-e390-4a51-bde7-358f1fbae02f)
   
 - ![IssuingOrganization](https://img.shields.io/badge/Issuing%20Organization-Coursera-informational)
 
-- ![IssueDate](https://img.shields.io/badge/Issue%20Date-Not%20Available-informational)
+- ![IssueDate](https://img.shields.io/badge/Issue%20Date-August%2015,%202023-informational)
 
-- ![CredentialID](https://img.shields.io/badge/Credential%20ID-Not%20Available-informational)
+- ![CredentialID](https://img.shields.io/badge/Credential%20ID-DCJXL39LMDU6-informational)
 
-- <a href="">![CredentialLink](https://img.shields.io/badge/Credential%20Link-https://NotAvailable-informational)</a>
+- <a href="https://www.coursera.org/account/accomplishments/verify/DCJXL39LMDU6">![CredentialLink](https://img.shields.io/badge/Credential%20Link-https://www.coursera.org/account/accomplishments/verify/DCJXL39LMDU6-informational)</a>
 
-- <a href="">![CertificateDownload](https://img.shields.io/badge/Certificate-Download%20PDF-informational)</a>
+- <a href="https://github.com/BitterOcean/Linear-Algebra-for-ML/blob/main/Coursera DCJXL39LMDU6.pdf">![CertificateDownload](https://img.shields.io/badge/Certificate-Download%20PDF-informational)</a>
