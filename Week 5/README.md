@@ -167,8 +167,63 @@
 
 ### <span style="color: green;">**Congratulations! You passed!**</span>
 
-#### **Grade received** <span style="color: green;">100%</span>
+#### **Grade received** <span style="color: green;">90%</span>
 
-#### **Latest Submission Grade** 100%
+#### **Latest Submission Grade** 90%
 
 #### **To pass** 80% or higher
+
+
+---
+
+1. 
+![q4_1_1](img/q4_1_1.png)
+![q4_1_2](img/q4_1_2.png)
+
+---
+
+2. 
+![q4_2_1](img/q4_2_1.png)
+![q4_2_2](img/q4_2_2.png)
+
+---
+
+3. 
+![q4_3](img/q4_3.png)
+
+---
+
+4. 
+![q4_4](img/q4_4.png)
+
+---
+
+5. 
+![q4_5](img/q4_5.png)
+
+---
+
+6. 
+![q4_6](img/q4_6.png)
+
+---
+
+7.
+![q4_7](img/q4_7.png)
+
+---
+
+8. 
+![q4_8](img/q4_8.png)
+
+---
+
+9. 
+![q4_9](img/q4_9.png)
+
+---
+
+10.
+![q4_10](img/q4_10.png)
+
+---
