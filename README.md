@@ -189,4 +189,4 @@ At the end of this course you will have an intuitive understanding of vectors an
 
 - <a href="https://www.coursera.org/account/accomplishments/verify/DCJXL39LMDU6">![CredentialLink](https://img.shields.io/badge/Credential%20Link-https://www.coursera.org/account/accomplishments/verify/DCJXL39LMDU6-informational)</a>
 
-- <a href="https://github.com/BitterOcean/Linear-Algebra-for-ML/blob/main/Coursera DCJXL39LMDU6.pdf">![CertificateDownload](https://img.shields.io/badge/Certificate-Download%20PDF-informational)</a>
+- <a href="https://github.com/BitterOcean/Linear-Algebra-for-ML/blob/main/Coursera%20DCJXL39LMDU6.pdf">![CertificateDownload](https://img.shields.io/badge/Certificate-Download%20PDF-informational)</a>
